@@ -702,9 +702,9 @@ button.owl-next {
     bottom: -20px;
 }
 
-.carousel {
-    margin: 0 auto;
-    padding: 0 70px;
+.sliding-testimonials .list-inline-item {
+    margin: 0;
+    padding: 0;
 }
 
 .carousel .item {
@@ -754,10 +754,6 @@ button.owl-next {
     transform: rotateZ(-46deg);
 }
 
-.carousel .star-rating li {
-    padding: 0 2px;
-}
-
 .carousel .star-rating i {
     font-size: 16px;
     color: #ffdc12;
@@ -798,20 +794,22 @@ button.owl-next {
     background: #b70000;
     border: 5px double;
 }
-.country-slider .item h4{
+
+.country-slider .item h4 {
     position: absolute;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     width: 100%;
     top: 8px;
     padding: 0 10px;
     font-family: var(--font-oswald);
     font-weight: 400!important;
     color: #b70000;
-    margin: 0;    
+    margin: 0;
     line-height: 25px;
     text-transform: uppercase;
 }
-.country-slider .item h4>span{
+
+.country-slider .item h4>span {
     float: right;
     background: #b70000;
     color: #fff;
@@ -821,27 +819,33 @@ button.owl-next {
     font-size: 18px;
     line-height: 30px
 }
-.country-slider .slide-fotter button{
+
+.country-slider .slide-fotter button {
     border-radius: 30px;
     font-weight: bold;
     font-size: 15px;
     padding: 3px 15px;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
-.country-slider .item{
-   transition: 0.5s ease-in-out;
+
+.country-slider .item {
+    transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-out;
     -moz-transition: 0.5s ease-out;
     -o-transition: 0.5s ease-out;
     -ms-transition: 0.5s ease-out;
 }
-.country-slider .item:hover{
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+
+.country-slider .item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.country-slider .owl-stage-outer{
+
+.country-slider .owl-stage-outer {
     min-height: 340px;
 }
+
+
 /*--- End Footer ---*/
 
 @media all and (max-width:576px) {

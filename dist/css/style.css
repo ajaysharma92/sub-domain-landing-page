@@ -848,6 +848,70 @@ button.owl-next {
 
 /*--- End Footer ---*/
 
+
+/*---- Media Screen - 360px ---*/
+
+@media all and (max-width:360px) {
+    .navbar-brand {
+        text-align: center;
+    }
+    .navbar-brand span {
+        display: block;
+    }
+    .border-sm-hide {
+        border: none!important;
+    }
+    .margin-sm-1 {
+        margin-bottom: 1em;
+    }
+    .form-div-section{
+        background-size: cover;    
+    }
+    .brand-div .brand-section{
+        position: relative;
+        margin-top: 10%;
+    }
+    ul.process-section li{
+        margin-bottom: 2em;
+        display: block;
+        width: 100%;
+        margin-bottom: 2em;
+        margin-right: 0;
+        float: none;
+    }
+    ul.process-section li img{
+        display: inline;
+        left: 0;
+        margin-left: 0;
+    }
+    ul.process-section>li::before{
+        content: "\f107";
+        top: 52%;
+        left: 50%;
+        right: 50%;
+        font-size: 2rem;
+    }
+    ul.process-section>li:nth-last-child(1){
+        margin-bottom: 0;
+    }
+    .how-we-help{
+        padding: 1em!important;
+    }
+    .how-we-help > h2{
+        margin: 0em!important;
+    }
+    .benefits-section::before{
+        content: none;
+    }
+    .faqs-filter-section{
+        padding: 0;
+        margin-top: 2em;
+    }
+    .branch-info{
+        width: 100%;
+    }
+}
+
 @media all and (max-width:576px) {
     .form-bg {
         bottom: 0;

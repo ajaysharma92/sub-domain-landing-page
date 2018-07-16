@@ -849,9 +849,9 @@ button.owl-next {
 /*--- End Footer ---*/
 
 
-/*---- Media Screen - 360px ---*/
+/*---- Media Screen - 427px ---*/
 
-@media all and (max-width:360px) {
+@media all and (max-width:425px) {
     .navbar-brand {
         text-align: center;
     }

@@ -44,6 +44,41 @@
             </div>
         </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
     <div class="row px-0 section-1">
         <div class="col-lx-3 col-lg-4 col-sm-5 col-12 p-0 mh-100">
             <div class="flight-bg px-4 h-100">
@@ -95,7 +130,7 @@
                 <form action="">
                     <div class="form-head">Free Consultation Form:</div>
                     <div class="form-section row">
-                        <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <ul class="form-list-filed unorder-list pl-2 mb-1 row">
                                 <li class="col-xl-4 col-md-4 col-sm-6 col-12">
                                     <label for="eq-name">Name:</label>
@@ -117,7 +152,7 @@
                                         <option value="germany">Germany</option>
                                     </select>
                                 </li>
-                                <li class="col-xl-4 col-md-4 col-sm-6 col-12"><label for="branch">Preferred Branch:</label>
+                                <!--<li class="col-xl-4 col-md-4 col-sm-6 col-12"><label for="branch">Preferred Branch:</label>
                                     <select name="pre-branch" id="branch">
                                         <option value="">--- Select Branch ---</option>
                                         <option value="SMJ">Somajiguda</option>
@@ -127,14 +162,18 @@
                                         <option value="CHN">Chennai</option>
                                         <option value="VZG">Vizag</option>
                                     </select>
-                                </li>
+                                </li>-->
                                 <li class="col-xl-4 col-md-4 col-sm-6 col-12"><label for="eq-message">Message:</label>
                                     <input type="text" placeholder="Your Message to us.." id="eq-message">
                                 </li>
+                                <li class="col-xl-4 col-md-4 col-sm-6 col-12 px-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ef-opt-in" name="ef-opt-in" value="Yes" checked="">
+                                        <label class="custom-control-label" for="ef-opt-in">Send me regular updates</label>
+                                    </div>
+                                    <input type="submit" value="Submit">
+                                </li>
                             </ul>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 submit-form-btn px-1">
-                            <input type="submit" value="Submit">
                         </div>
                     </div>
                 </form>
